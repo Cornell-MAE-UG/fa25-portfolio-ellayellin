@@ -3,23 +3,21 @@ layout: project
 title: Wind Turbine Blade Design
 description: Wind Turbine Blade Design
 technologies: [Autodesk Fusion, MATLAB]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/bladecoverphoto.png
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For my fluids and heat transfer laboratory class, we were tasked with designing a small-scale horiztonal-axis wind turbine blade designed to maximize extracted power while operating across a range of wind speeds at a given RPM. The wind turbine is optimized for use in an oncoming wind velocity of 4.8 m/s, the average velocity that would extract max power under its experienced Weibull distribution of velocities. To design the blade, a MATLAB model was developed to optimize the design. This included selecting an airfoil designation of NACA 4412, determining chord length and pitch as a function of radius, solving for the forces and stresses experienced by the blade, predicting output power curves, and iterating to determine the design angular velocity. The chosen design predicted a design RPM of 1050 that would extract 3.61 W at an oncoming wind speed of 4.82 m/s. The designed wind turbine was then tested at five different oncoming wind speeds, and experimental power graphs were recorded for each. Comparing the model predicted behavior with the experimental behavior, the actual wind turbine produced less power but spun faster, likely a result of the model’s assumptions and simplifications, such as not taking into account tip effects. The maximum power extracted observed was 1.8 W at an oncoming wind speed of 5.8 m/s. Ultimately, while the wind turbine underperformed relative to what the model predicted, the performance demonstrates how optimizing the taper, twist, and CL/CD can result in a blade that maximizes power output under a given Weibull distribution.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
-
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-I was inspired by this old radio when I made this rendering:
-
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+<center>
+<img src="/fa25-portfolio-ellayellin/assets/images/bladerender.png" alt="bladeCad" width="500"/>
+<br>
+<strong>Figure 1:</strong> CAD render of final blade design.
+</center>
+<br>
+<center>
+<img src="/fa25-portfolio-ellayellin/assets/images/powercurves.png" alt="powerCurves" width="500"/>
+<br>
+<strong>Figure 2:</strong> Experimentally collected power curves showing a maximum extracted power of 1.8 W.
+</center>
+<br>
