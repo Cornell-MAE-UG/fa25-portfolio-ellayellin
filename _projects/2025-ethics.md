@@ -3,7 +3,7 @@ layout: project
 title: Engineers in Society Final Portfolio - Boeing 737 Max Ehtical Analysis
 description: Class project 
 technologies: [Collaboration, Communication, Ethical Analysis]
-image: /assets/images/function-graph.png
+image: /assets/images/boeing.png
 ---
 For my engineering ethics class, I analyzed the ethical issues in the Boeing 737 MAX crashes. This was done using the work from Weeks 6 through 9 of the course. 
 
